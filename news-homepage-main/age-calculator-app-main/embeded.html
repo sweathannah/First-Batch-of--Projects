@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+	<link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+	<link rel="stylesheet" href="./assets/fonts/Poppins.css">
+	
+	<title>Frontend Mentor | Age calculator app</title>
+	<!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+	<style>
+
+		html{
+		background-color: hsl(0, 0%, 100%);
+		}
+			
+		body{
+			font-size: 32px;
+			font-family: Poppins,sans-serif;
+			font-weight: 400;
+ 			background-color:hsl(0, 0%, 86%);
+			padding: 100px 200px;
+		}
+
+		section{
+			background-color: hsl(0, 0%, 100%);
+			border-radius: 15px 15px 150px 15px;
+			width: 500px;
+			padding: 50px;
+		}
+
+		header{
+			border-bottom: 1px solid  hsl(0, 0%, 86%);
+			font-size: 10px;
+			font-weight:700 ;
+			color: hsl(0, 1%, 44%);
+			letter-spacing: 1px;
+		}
+
+		header li{
+			text-transform: uppercase;
+		}
+
+		input{
+			border-radius: 5px 5px;
+			width: 100px;
+			height: 48px;
+			border-color:  hsl(0, 0%, 86%) ;
+			margin-top: 5px;
+			margin-right: 30px;
+			margin-bottom: 30px;
+			padding: 0;
+		}
+
+		li{
+			list-style-type: none;
+		}
+
+		.day{
+			float: left;
+		}
+
+		.month{
+			float: left;
+		}
+
+		img{
+			position: absolute;
+			top: 110px;
+			right: 70px;
+		}
+		
+		
+		main{
+			color:hsl(259, 100%, 65%);
+			font-weight:800;
+			font-size: 60px;
+			line-height: 100px;
+		}
+		
+
+		h1{
+			margin: 0 0;
+		}
+
+		div{
+			color: hsl(0, 0%, 8%);
+		}
+
+		.d1{
+			position: absolute;
+			top: 290px;
+			left: 400px;
+		}
+
+		.d2{
+			position: absolute;
+			top: 390px;
+			left: 400px;
+		}
+
+		.d3{
+			position: absolute;
+			top: 490px;
+			left: 400px;
+		}
+		
+
+		.attribution { font-size: 11px; text-align: center; }
+		.attribution a { color: hsl(228, 45%, 44%); }
+	</style>
+	</head>
+	<body>
+	<section>
+		<header>
+			<form class="day">
+				<li>Day</li>
+				<input id="DD"  placeholder="DD">
+			</form>
+			<form class="month">
+				<li>Month</li>
+				<input  id="MM" placeholder="MM">
+			</form>
+			<form class="year">
+				<li>Year</li>
+				<input id="YYYY" placeholder="YYYY">
+			</form>
+        </header>
+		<main>
+			<h1>--<div class="d1">years</div></h1>
+			<h1>--<div class="d2">months</div></h1>
+			<h1>--<div class="d3">days</div></h1>
+		</main>
+		<footer>
+			<div class="attribution">
+				Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+				Coded by <a href="#">Your Name Here</a>.
+			</div>
+		</footer>
+	</section>
+	</body>
+</html>

@@ -1,0 +1,182 @@
+*{
+    box-sizing: border-box;
+} 
+
+
+body{
+    font-size: 15px;
+    font-family: Inter,sans-serif;
+    font-weight: 400;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding: 100px;
+    padding-top: 70px;
+    width: 100vw;
+    height: 100vh;
+}
+
+nav{
+    margin-right: 80px;
+}
+
+li{
+    margin-left: 1.5rem;
+    margin-top: 0.7rem;
+    padding-left: 10px;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a , p{
+    text-decoration: none;
+    color: hsl(236, 13%, 42%);
+}
+
+#banner{
+    width: 63%;
+}
+
+#banner p,#banner a{
+    width: 40%;
+}
+
+header{
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+
+#banner img{
+    width: 100%;
+}
+
+#banner h1{
+    font-weight: 800;
+    font-size: 3.8rem;
+    width: 400px;
+    text-transform: capitalize;
+    margin-top: 0;
+    line-height: 3.9rem;
+}
+
+#banner p{
+    width: 350px;
+}
+
+#banner>article{
+    margin-top: 20px;
+}
+
+button{
+    background-color: hsl(5, 85%, 63%);
+    text-transform: uppercase;
+    padding: 12.5px 24px;
+    border: none;
+    letter-spacing: 2.5;
+    font-weight: 700;
+}
+
+button:hover, #news {
+    background-color:hsl(240, 100%, 5%);
+}
+
+#news {
+    line-height: 30px;
+    word-spacing: 2px;
+    font-weight: 700;
+    margin-left: 2rem;
+    padding: 1.2rem 1.8rem;
+    width: 31.8%;
+    height: 550px;
+}
+
+#news h2{
+    font-size: 45px;
+}
+
+#news p {
+    color: hsl(236, 13%, 42%);
+}
+
+#news div >article {
+    border-bottom: 1px solid hsl(236, 13%, 42%);
+
+}
+
+#news h3 ,button ,#news a{
+    color: hsl(36, 100%, 99%);
+}
+
+#news a:hover,#news h2{
+    color: hsl(35, 77%, 62%);
+}
+
+#topics article{
+    width: 225px;
+
+}
+
+#topics img{
+    max-height: 100%;
+    width: 100px;
+}
+
+#topics h2 {
+    color:hsl(233, 8%, 79%);
+    font-size: 2.2rem;
+    margin: 0.7rem 0;
+}
+
+#topics h3{
+    margin: 0;
+}
+
+#topics p{
+    margin-bottom: 0;
+    line-height: 30px;
+}
+
+#topics h3,#topics a,h1{
+    color: hsl(240, 100%, 5%);
+
+}
+
+#topics a:hover,header a:hover{
+    color: hsl(5, 85%, 63%);
+}
+
+header{
+    justify-content: space-between;
+}
+
+.container{
+    display: flex;
+}
+
+.column{
+    flex-direction: column;
+}
+
+.row{
+    flex-direction: row;
+}
+
+.wrap{
+    flex-wrap: wrap;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+
+#topics{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }

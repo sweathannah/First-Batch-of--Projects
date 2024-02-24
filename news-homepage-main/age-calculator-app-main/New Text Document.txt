@@ -1,0 +1,9 @@
+		html-			background-color:hsl(0, 0%, 86%);
+			body{position: absolute;
+			top: 70%;
+			left: 50%;
+			padding: 80px 120px;
+		}
+
+		section{
+background-color: hsl(0, 0%, 100%);

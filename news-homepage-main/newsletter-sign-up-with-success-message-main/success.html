@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+	<link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+	<link rel="stylesheet" href="https://fonts.google.com/specimen/Roboto">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+	<title>Frontend Mentor | Newsletter sign-up form with success message</title>
+
+	<!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+	<style>
+
+		body{
+			font-size: 15px;
+			font-weight: 400;
+			font-family: Roboto;
+			list-style-type: none;
+			background-color:hsl(235, 18%, 26%);
+			text-decoration:none;
+		}
+        
+		#aside{
+			position: absolute;
+			top: 20%;
+			left:500px;
+			background-color: hsl(0, 0%, 100%);
+			padding: 40px;
+			border-radius:30px 30px;
+ 	
+		}
+
+		#aside h1{
+			width:300px;
+			font-size:50px;
+			line-height: 50px;
+		}	
+		
+		#aside p{
+			width:350px;
+			line-height: 20px;
+		}
+
+		#aside a {
+			color: hsl(234, 29%, 20%);
+			font-weight: 400;
+			text-decoration:none;
+		}
+
+		#aside button{
+			border-radius: 5px 5px;
+			width:330px;
+			height: 45px;
+		}
+
+		footer{
+			position:absolute;
+			bottom:0;
+		}
+
+		.attribution { font-size: 11px; text-align: center; }
+		.attribution a { color: hsl(228, 45%, 44%); }
+
+    </style>
+        <body>
+            <!-- Success message start -->
+                <aside>
+                    <section id="aside">
+                        <img src="./assets/images/icon-success.svg">
+                        <h1>Thanks for subscribing!</h1>
+                        <p>A confirmation email has been sent to 
+                            <a href="#">ash@loremcompany.com.</a>
+                        Please open it and click the button inside to confirm your subscription.
+                        </p>
+                        <button>Dismiss message</button>
+                    </section>
+                </aside>
+            <!-- Success message end -->
+        </body>
+        <footer>
+            <div class="attribution">
+                Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+                Coded by <a href="#">sweathannah</a>.
+            </div>
+        </footer>
